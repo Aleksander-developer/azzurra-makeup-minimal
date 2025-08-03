@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:azzurra-makeup-fe-minimal": "node dist/azzurra-makeup-fe-minimal/server/server.mjs"
+    "serve:ssr:azzurra-makeup-fe-minimal": "node dist/azzurra-makeup-fe-minimal/server/server.mjs",
+    "build:ssr": "ng build && ng run azzurra-makeup-fe-minimal:server"
   },
   "private": true,
   "dependencies": {
